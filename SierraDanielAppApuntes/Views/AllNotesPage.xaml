@@ -4,7 +4,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:models="clr-namespace:SierraDanielAppApuntes.Models"
              x:Class="SierraDanielAppApuntes.Views.AllNotesPage"
-             Title="Your Notes by Johann Calva"
+             Title="Las Notas de Daniel Sierra"
              x:DataType="models:AllNotes">
     <!-- Add an item to the toolbar -->
     <ContentPage.ToolbarItems>
@@ -28,7 +28,7 @@
             <DataTemplate x:DataType="models:Note">
                 <StackLayout>
                     <Label Text="{Binding Text}" FontSize="22"/>
-                    <Label Text="{Binding Date}" FontSize="14" TextColor="SkyBlue"/>
+                    <Label Text="{Binding Date}" FontSize="14" TextColor="Black"/>
                 </StackLayout>
             </DataTemplate>
         </CollectionView.ItemTemplate>
